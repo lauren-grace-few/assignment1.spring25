@@ -1,0 +1,109 @@
+/* General Settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Marcellus', serif;
+    background-image: url(../greece_images/Untitled\ \(25\ x\ 30\ in\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+    padding-top: 60px;
+}
+
+/* Navigation Bar */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #f4a261; /* Styled hover effect */
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-image: url('../greece_images/pink-sunset-in-greece.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 95, 115, 0.8);
+}
+
+/* Styled intro text (class selector) */
+.intro-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px); /* New CSS Property */
+}
+
+/* Grid Gallery */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.grid-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 95, 115, 0.8);
+    color: white;
+    font-weight: bold;
+}
+

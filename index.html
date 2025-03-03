@@ -7,34 +7,47 @@
     <meta name="author" content="Lauren Fewlass">
     <meta name="description" content="A profile of Greece, covering its history, culture, and attractions.">
     <meta name="keywords" content="Greece, history, culture, travel, tourism">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/test.css">
 </head>
 <body>
+    <!-- NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="#history">History</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#attractions">Attractions</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+        </ul>
+    </nav>
+
     <!-- HEADING -->
     <header>
-    <h1>Greece – A Land of History and Beauty</h1>
-    <p><strong>Greece</strong>, the cradle of Western civilization, is known for its ancient history, breathtaking landscapes, and vibrant culture. This profile explores Greece’s <em>rich historical legacy</em>, cultural significance, top attractions, and fantastic facts that make it a must-visit destination.</p>
-    <nav>
-        <a href="https://www.visitgreece.gr/" target="_blank">Official Greece Tourism Website</a> |
-        <a href="https://en.wikipedia.org/wiki/Greece" target="_blank">Learn More on Wikipedia</a>
-    </nav>
-</header>
+        <h1>Greece – A Land of History and Beauty</h1>
+        <p class="intro-text">Explore the rich history, vibrant culture, and breathtaking landscapes of Greece.</p>
+    </header>
 
-    <!-- MAIN SECTION: BODY -->
+    <!-- MAIN SECTION -->
     <main>
         <!-- History -->
-        <section>
+        <section id="history">
             <h2>History</h2>
             <p>Greece has played a fundamental role in shaping the modern world. As the birthplace of democracy, philosophy, and the Olympic Games, its influence can still be felt today. The ancient city-states of Athens and Sparta were central to the development of political and military power, while Greek philosophers such as <mark>Socrates, Plato, and Aristotle</mark> laid the foundation for Western thought. The vast empire of Alexander the Great spread Greek culture and ideas far beyond its borders, leaving a lasting impact on history.</p>
         </section>
 
         <!-- Culture -->
-        <section>
+        <section id="culture">
             <h2>Culture</h2>
             <p>Greek culture is deeply rooted in traditions, mythology, and the arts. From epic poetry and ancient theater to modern literature and film, Greece has long been a hub of creativity. Greek cuisine is world-renowned, featuring dishes like <strong>moussaka</strong>, souvlaki, and baklava. Traditional Greek music and dance, including the well-known <em>syrtaki</em>, reflect the country’s lively and welcoming spirit. Festivals and religious celebrations remain an integral part of Greek life, with Easter being one of the most significant and widely celebrated events.</p>
         </section>
-     
+
         <!-- Top Attractions -->
-        <section>
+        <section id="attractions">
             <h2>Top Attractions</h2>
             <ol>
                 <li>Acropolis of Athens</li>
@@ -44,8 +57,8 @@
         </section>
 
         <!-- Interesting Facts -->
-        <section>
-            <h3>Interesting Facts</h3>
+        <section id="facts">
+            <h2>Interesting Facts</h2>
             <ul>
                 <li>Greece has over 6,000 islands</li>
                 <li>It is home to 18 UNESCO World Heritage Sites</li>
@@ -53,18 +66,27 @@
             </ul>
         </section>
 
-        <!-- Gallery -->
-         <section>
-            <h3>Gallery</h3>
-            <img src="greece_images/NEW_ATH_ACROPOLIS_AREA_011.jpg" alt="Parthenon in Athens" height="200">
-            <img src="greece_images/istockphoto-541132240-612x612.jpg" alt="Santorini Sunset" height="200">
-            <img src="greece_images/oracle-of-delphi.jpg" alt="Ancient Ruins of Delphi" height="200">
-         </section>
+        <!-- Grid Gallery -->
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="grid-gallery">
+                <img src="greece_images/NEW_ATH_ACROPOLIS_AREA_011.jpg" alt="Parthenon in Athens" height="200">
+                <img src="greece_images/istockphoto-541132240-612x612.jpg" alt="Santorini Sunset" height="200">
+                <img src="greece_images/848f2e7a76771a6e352771ebcb5ed78a.jpg" alt="florals above greek housing" height="200"> 
+                <img src="greece_images/Balos-Crete-at-sunset.jpg" alt="Balos-Crete-at-sunset" height="200">
+                <img src="greece_images/oracle-of-delphi.jpg" alt="Ancient Ruins of Delphi" height="200">
+                <img src="greece_images/greece-island_3x2.avif" alt="greece sailboat in front of island" height="200">
+                <img src="greece_images/greece_page20_2.webp" alt="greece cave with water bay" height="200">
+                <img src="greece_images/adrianou-street-jpg.webp" alt="street in greece" height="200">
+                <img src="greece_images/istockphoto-1484278529-612x612.jpg" alt="housing on a street in greece" height="200">
+                <img src="greece_images/Untitled-design-2023-06-29T112936.098.webp" alt="houses and boats in greece" height="200">
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>Explore Greece and experience its timeless beauty, rich culture, and historical significance.</p>
+        <p>Discover Greece’s beauty and rich heritage.</p>
     </footer>
 </body>
 </html>
